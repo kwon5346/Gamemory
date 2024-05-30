@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "587188165243",
+    "project_id": "gameory-32af9",
+    "storage_bucket": "gameory-32af9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587188165243:android:efbce31789a5c996b320de",
+        "android_client_info": {
+          "package_name": "com.example.gamemory"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvJl_ANj1EozaPn8dfNPPGnRA5wbKIjCI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
