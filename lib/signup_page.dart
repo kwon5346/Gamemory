@@ -65,6 +65,11 @@ class _SignUpPageState extends State<SignUpPage> {
       backgroundColor: Color(0xFF0A0A0A),
       appBar: AppBar(
         title: Text('Sign Up'),
+        titleTextStyle: TextStyle(
+          color: Colors.white,
+          fontSize: 24,
+          fontWeight: FontWeight.bold,
+        ),
         backgroundColor: Colors.indigo[900],
       ),
       body: Padding(
