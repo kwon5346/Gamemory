@@ -11,6 +11,11 @@ class FavoritesPage extends StatelessWidget {
       backgroundColor: Color(0xFF0A0A0A),
       appBar: AppBar(
         title: Text('Favorite Games'),
+        titleTextStyle: TextStyle(
+          color: Colors.white,
+          fontSize: 24,
+          fontWeight: FontWeight.bold,
+        ),
         backgroundColor: Colors.indigo[900],
       ),
       body: favoriteGames.isEmpty

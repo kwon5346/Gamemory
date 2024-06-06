@@ -125,3 +125,4 @@ class _GameTagPageState extends State<GameTagPage> {
     );
   }
 }
+
