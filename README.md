@@ -2,7 +2,7 @@
 
 ## 프로젝트 소개
 
-GAMEMORY는 아주대학교 데이터베이스 과목 프로젝트로 개발된 게임 추천 시스템입니다. 사용자가 게임을 선택할 때 겪는 어려움을 덜어주고 개인 맞춤형 게임 추천을 제공합니다.
+**GAMEMORY**는 게임 선택의 어려움을 해결하고 개인화된 게임 추천을 제공하기 위해 개발된 앱입니다. (아주대학교 24-1 데이터베이스 과목 프로젝트)
 
 ### 주요 기능
 - 회원가입 및 로그인
@@ -21,24 +21,24 @@ GAMEMORY는 아주대학교 데이터베이스 과목 프로젝트로 개발된 
 ## 데모 및 스크린샷
 
 #### 1. 로그인 및 회원가입, 태그 선택
-<p align="left"> <img src="image-1.png" alt="로그인 화면" width="580"  height = "280">
+<p align="left"> <img src="assets/images/image-1.png" alt="로그인 화면" width="580"  height = "280">
 
 - 사용자는 앱에 가입하거나 기존 계정을 통해 로그인할 수 있습니다.
 - Firebase Authentication을 사용하여 안전한 이메일 및 비밀번호 기반 인증을 제공합니다.
 #### 2. 게임 추천 결과
 
-<p align="left"> <img src="image-2.png" alt="로그인 화면" width="400"  height = "270">
+<p align="left"> <img src="assets/images/image-3.png" alt="로그인 화면" width="400"  height = "270">
 
 - 회원가입한 데이터와 즐겨찾기한 데이터는 각각 user 컬렉션과 Favorite 컬렉션에 저장됩니다.
 - 선택한 태그를 기반으로 추천된 게임 목록을 확인할 수 있습니다.
 - 게임 이름, 이미지, 요약 정보 등을 표시하며, 사용자는 목록에서 게임을 선택할 수 있습니다.
 
 
-#### 3. 게임 추천 결과, 즐겨찾기 목록 관리
+#### 3. 게임 정보, 즐겨찾기 목록 
 
-<p align="left"> <img src="image-4.png" alt="로그인 화면" width="420"  height = "340">
+<p align="left"> <img src="assets/images/image-4.png" alt="로그인 화면" width="420"  height = "340">
 
-- 사용자는 추천된 게임을 즐겨찾기에 추가하거나, 즐겨찾기 목록을 관리할 수 있습니다.
+- 사용자는 추천된 게임을 즐겨찾기에 추가하거나 삭제하여 즐겨찾기 목록을 관리할 수 있습니다.
 - 게임 목록이 Firebase Firestore의 Favorites 컬렉션에 저장됩니다.
 - 특정 게임을 선택하면 Steam Store API를 통해 게임의 세부 정보를 확인할 수 있습니다.
 
@@ -48,7 +48,7 @@ GAMEMORY는 아주대학교 데이터베이스 과목 프로젝트로 개발된 
 
 #### ER 다이어그램
 
-<p align="left"> <img src="image-5.png" alt="로그인 화면" width="300"  height = "250">
+<p align="left"> <img src="assets/images/image-5.png" width="300"  height = "250">
 </p>
 
 #### Firestore 데이터베이스 구조
